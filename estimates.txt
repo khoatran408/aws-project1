@@ -1,0 +1,4 @@
+Minimum RTO for a single AZ outage: half day, restore database to a newly created RDS.
+Minimum RTO for a single region outage: about 15 minutes, the time database promote from another AZ.
+Minimum RPO for a single AZ outage: loose half day of data.
+Minimum RPO for a single region outage: loose 15 minutes of data.
